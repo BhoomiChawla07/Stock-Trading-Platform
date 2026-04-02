@@ -27,7 +27,7 @@ const TopBar = () => {
       </div>
 
       <button 
-        onClick={() => window.location.href = 'https://stock-trading-platform-3lkl.onrender.com'} 
+        onClick={() => window.location.href = 'https://stock-trading-platform-seven.vercel.app/'} 
         className="back-to-site-btn"
         style={{ margin: '10px', padding: '5px 10px', backgroundColor: '#007bff', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer' }}
       >

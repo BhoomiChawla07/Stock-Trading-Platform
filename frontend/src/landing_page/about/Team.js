@@ -30,17 +30,17 @@ function Team() {
             <h2 className='text-center mb-4 mt-5'>Meet Our Team</h2>
             <div className='row'>
                 <div className='col-md-4 text-center'>
-                    <img src='media/nikhil.jpg' alt="team member" className='rounded-circle mb-3' style={{width:"150px", height:"150px", objectFit:"cover"}}></img>
+                    <img src='media/Nikhil.jpg' alt="team member" className='rounded-circle mb-3' style={{width:"150px", height:"150px", objectFit:"cover"}}></img>
                     <h5>Nikhil Kamath</h5>
                     <p className='text-muted'>Co-Founder & CEO</p>
                 </div>
                 <div className='col-md-4 text-center'>
-                    <img src='media/kailash.jpg' alt="team member" className='rounded-circle mb-3' style={{width:"150px", height:"150px", objectFit:"cover"}}></img>
+                    <img src='media/Kailash.jpg' alt="team member" className='rounded-circle mb-3' style={{width:"150px", height:"150px", objectFit:"cover"}}></img>
                     <h5>Dr. Kailash Nadh</h5>
                     <p className='text-muted'>Chief Technology Officer</p>
                 </div>
                 <div className='col-md-4 text-center'>
-                    <img src='media/venu.jpg' alt="team member" className='rounded-circle mb-3' style={{width:"150px", height:"150px", objectFit:"cover"}}></img>
+                    <img src='media/Venu.jpg' alt="team member" className='rounded-circle mb-3' style={{width:"150px", height:"150px", objectFit:"cover"}}></img>
                     <h5>Venu Madhav</h5>
                     <p className='text-muted'>Chief Operating Officer</p>
                 </div>

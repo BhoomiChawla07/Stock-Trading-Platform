@@ -63,7 +63,7 @@ function Support() {
         {/* Header and My tickets button */}
         <div className="d-flex justify-content-between align-items-center mb-4">
           <h1 className="fw-semibold" style={{fontSize: "2.5rem" }}>Support Portal</h1>
-          <button className="btn btn-primary px-4 py-2 fs-5">My tickets</button>
+          <button className="btn btn-primary px-4 py-2 fs-5" style={{width:"10rem"}}>My tickets</button>
         </div>
 
         {/* Search bar */}
