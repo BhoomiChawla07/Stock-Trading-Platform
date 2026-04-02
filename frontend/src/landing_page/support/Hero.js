@@ -90,7 +90,8 @@ function Support() {
                 className="mb-3"
                 key={cat.title}
                 style={{
-                  background: "#333",
+                  color:"#333",
+                  background: "#fff",
                   border: "1px solid #e3e7ed",
                   borderRadius: "8px"
                 }}
