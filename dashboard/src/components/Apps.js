@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 const Apps = () => {
   const apps = [
@@ -49,9 +50,10 @@ const Apps = () => {
             <div className="app-icon">{app.icon}</div>
             <h3>{app.name}</h3>
             <p>{app.description}</p>
-            <a href={app.link} className="btn btn-blue" target="_blank" rel="noopener noreferrer">
+            <Link to={app.link} className="btn btn-blue" target="_blank" rel="noopener noreferrer">
+           
               Open App
-            </a>
+            </Link>
           </div>
         ))}
       </div>
