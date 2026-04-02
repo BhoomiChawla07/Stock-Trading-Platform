@@ -23,7 +23,7 @@ const Login = ({ onSwitchToSignup }) => {
         setLoading(true);
 
         try {
-            const response = await axios.post('https://dashboard-bhoomichawla.vercel.app/login', {
+            const response = await axios.post('https://dashboard-bhoomichawla.vercel.app/holdings', {
                 username: formData.username,
                 password: formData.password
             });

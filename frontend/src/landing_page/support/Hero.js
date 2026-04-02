@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 // Dummy data for categories and quick links
 const categories = [
@@ -57,6 +57,10 @@ const updates = [
 function Support() {
   const [openIndex, setOpenIndex] = useState(null);
 
+  useEffect(() => {
+    document.title = "Support Portal - Stock Trading Platform";
+  }, []);
+
   return (
     <div style={{ background: "#fafbfc", minHeight: "100vh", paddingBottom: "3rem" }}>
       <div className="container py-5">
@@ -86,7 +90,7 @@ function Support() {
                 className="mb-3"
                 key={cat.title}
                 style={{
-                  background: "#fff",
+                  background: "#333",
                   border: "1px solid #e3e7ed",
                   borderRadius: "8px"
                 }}
