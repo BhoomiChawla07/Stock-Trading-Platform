@@ -1,19 +1,19 @@
 import React from 'react'
-import RightSection from "./RightSection"
+
 
 function LeftSection({imageURL, productName, productDescription, tryDemo, learnMore, googlePlay,appStore}) {
     return ( 
         <div className='container mt-5'>
             <div className='row'>
                 <div className='col-7 p-5'>
-                    <img src={imageURL} style={{marginLeft:"3.5rem"}}/>
+                    <img src={imageURL} alt='left' style={{marginLeft:"3.5rem"}}/>
                 </div>
                 <div className='col-5 p-5 mt-3'>
                     <h2>{productName}</h2>
                     <p className='mb-4 fs-5 mt-4'> {productDescription}</p>
                     <div>
-                    <a href='#'style={{textDecoration:"none", fontSize:"1.15rem", }}>Try demo   <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                    <a href='#'style={{textDecoration:"none", fontSize:"1.15rem", paddingLeft:"3rem"}}>Learn more   <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                    <a style={{textDecoration:"none", fontSize:"1.15rem", }}>Try demo   <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                    <a style={{textDecoration:"none", fontSize:"1.15rem", paddingLeft:"3rem"}}>Learn more   <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                     </div>
 
                     <div className='mt-4 d-flex gap-4'>

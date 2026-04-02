@@ -9,13 +9,13 @@ function RightSection({imageURL, productName, productDescription, tryDemo, learn
                     <h2>{productName}</h2>
                     <p className='mb-4 fs-5 mt-4'>{productDescription}</p>
 
-                    <a href='#'style={{textDecoration:"none", fontSize:"1.15rem", }}>Learn more    <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                    <a style={{textDecoration:"none", fontSize:"1.15rem", }}>Learn more    <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
     
 
                 </div>
                     
                 <div className='col-7 '>
-                    <img src={imageURL}/>
+                    <img src={imageURL} alt='right'/>
                 </div>
                 
             </div>

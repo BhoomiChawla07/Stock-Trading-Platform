@@ -13,17 +13,17 @@ function Stats() {
                   <h4>The Zerodha universe</h4>
                   <p className='mb-4 text-muted'>Not just an app, but a whole ecosystem. Our investments in 30+ fintech startups offer you tailored services specific to your needs.</p>
                   <h4>Do better with money</h4>
-                  <p>With initiatives like <a href='#'style={{textDecoration:"none"}}>Nudge</a> and <a href="#"style={{textDecoration:"none"}}>Kill Switch,</a> we don't just facilitate transactions, but actively help you do better with your money.</p>
+                  <p>With initiatives like <a style={{textDecoration:"none"}}>Nudge</a> and <a href="#"style={{textDecoration:"none"}}>Kill Switch,</a> we don't just facilitate transactions, but actively help you do better with your money.</p>
                 </div>
                 <div className='col-6 p-5'>
-                    <img src='media/ecosystem.png' style={{width:"100%"}}></img>
+                    <img src='media/ecosystem.png' alt='eco' style={{width:"100%"}}></img>
                     <div className='text-center mt-5'>
-                        <a href='#'style={{textDecoration:"none", fontSize:"1.25rem"}}>Explore our products <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                        <a href='#' style={{textDecoration:"none", fontSize:"1.25rem"}} className='mx-5'>Try Kite demo <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                        <a style={{textDecoration:"none", fontSize:"1.25rem"}}>Explore our products <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                        <a style={{textDecoration:"none", fontSize:"1.25rem"}} className='mx-5'>Try Kite demo <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                     </div>
                 </div>
                 <div className='col-12 text-center mt-5'>
-                    <img src='media/pressLogos.png' style={{width:"80%"}}></img>
+                    <img src='media/pressLogos.png' alt='press' style={{width:"80%"}}></img>
                 </div>
             </div>
        </div>
