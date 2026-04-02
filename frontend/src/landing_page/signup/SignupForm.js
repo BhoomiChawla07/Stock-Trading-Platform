@@ -40,7 +40,7 @@ const SignupForm = ({ onSwitchToLogin }) => {
         setLoading(true);
 
         try {
-            const response = await axios.post('http://localhost:3002/signup', {
+            const response = await axios.post('https://stock-trading-platform-3lkl.onrender.com/signup', {
                 username: formData.username,
                 email: formData.email,
                 password: formData.password
@@ -50,7 +50,7 @@ const SignupForm = ({ onSwitchToLogin }) => {
             localStorage.setItem('token', response.data.token);
             setSuccess(true);
             setTimeout(() => {
-                window.location.href = 'http://localhost:3001';
+                window.location.href = 'https://stock-trading-platform-3lkl.onrender.com';
             }, 2000);
         } catch (error) {
             setError(error.response?.data?.message || 'Signup failed');

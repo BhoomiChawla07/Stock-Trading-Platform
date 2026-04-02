@@ -30,7 +30,7 @@ export const AuthProvider = ({ children }) => {
         const checkAuth = async () => {
             if (token) {
                 try {
-                    const response = await axios.get('http://localhost:3002/profile');
+                    const response = await axios.get('https://stock-trading-platform-3lkl.onrender.com/profile');
                     setUser(response.data.user);
                 } catch (error) {
                     console.error('Auth check failed:', error);
@@ -46,7 +46,7 @@ export const AuthProvider = ({ children }) => {
 
     const login = async (username, password) => {
         try {
-            const response = await axios.post('http://localhost:3002/login', {
+            const response = await axios.post('https://stock-trading-platform-3lkl.onrender.com/login', {
                 username,
                 password
             });
@@ -66,7 +66,7 @@ export const AuthProvider = ({ children }) => {
 
     const signup = async (username, email, password) => {
         try {
-            const response = await axios.post('http://localhost:3002/signup', {
+            const response = await axios.post('https://stock-trading-platform-3lkl.onrender.com/signup', {
                 username,
                 email,
                 password

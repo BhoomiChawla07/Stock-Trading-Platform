@@ -13,7 +13,7 @@ const Orders = () => {
     try {
       setLoading(true);
       const token = localStorage.getItem('token');
-      const response = await axios.get("http://localhost:3002/allOrders", {
+      const response = await axios.get("https://stock-trading-platform-3lkl.onrender.com/allOrders", {
         headers: {
           Authorization: `Bearer ${token}`
         }
@@ -31,7 +31,7 @@ const Orders = () => {
   const handleCancelOrder = async (orderId) => {
     try {
       const token = localStorage.getItem('token');
-      await axios.delete(`http://localhost:3002/cancelOrder/${orderId}`, {
+      await axios.delete(`https://stock-trading-platform-3lkl.onrender.com/cancelOrder/${orderId}`, {
         headers: {
           Authorization: `Bearer ${token}`
         }
