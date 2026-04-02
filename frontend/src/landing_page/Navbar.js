@@ -25,12 +25,12 @@ function Navbar() {
             <form class="d-flex" role="search">
                  <ul class="navbar-nav mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="http://localhost:3001/login">
+                <a class="nav-link active" aria-current="page" href="https://dashboard-bhoomichawla.vercel.app/">
                   Login
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="http://localhost:3001/signup">
+                <a class="nav-link active" aria-current="page" href="https://dashboard-bhoomichawla.vercel.app/">
                   Signup
                 </a>
               </li>
@@ -56,7 +56,7 @@ function Navbar() {
                 </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="http://localhost:3001">
+                <a class="nav-link active" href="https://dashboard-bhoomichawla.vercel.app/">
                   Console
                 </a>
               </li>

@@ -23,14 +23,14 @@ const Login = ({ onSwitchToSignup }) => {
         setLoading(true);
 
         try {
-            const response = await axios.post('http://localhost:3002/login', {
+            const response = await axios.post('https://dashboard-bhoomichawla.vercel.app/', {
                 username: formData.username,
                 password: formData.password
             });
 
             // Store the token and redirect to dashboard
             localStorage.setItem('token', response.data.token);
-            window.location.href = 'http://localhost:3001';
+            window.location.href = 'https://dashboard-bhoomichawla.vercel.app/';
         } catch (error) {
             setError(error.response?.data?.message || 'Login failed');
         } finally {
