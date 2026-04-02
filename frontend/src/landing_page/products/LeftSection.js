@@ -12,8 +12,8 @@ function LeftSection({imageURL, productName, productDescription, tryDemo, learnM
                     <h2>{productName}</h2>
                     <p className='mb-4 fs-5 mt-4'> {productDescription}</p>
                     <div>
-                    <a style={{textDecoration:"none", fontSize:"1.15rem", }}>Try demo   <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                    <a style={{textDecoration:"none", fontSize:"1.15rem", paddingLeft:"3rem"}}>Learn more   <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                    <a href='#!' style={{textDecoration:"none", fontSize:"1.15rem", }}>Try demo   <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                    <a href='#!' style={{textDecoration:"none", fontSize:"1.15rem", paddingLeft:"3rem"}}>Learn more   <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                     </div>
 
                     <div className='mt-4 d-flex gap-4'>

@@ -9,7 +9,7 @@ function RightSection({imageURL, productName, productDescription, tryDemo, learn
                     <h2>{productName}</h2>
                     <p className='mb-4 fs-5 mt-4'>{productDescription}</p>
 
-                    <a style={{textDecoration:"none", fontSize:"1.15rem", }}>Learn more    <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                    <a href='#!' style={{textDecoration:"none", fontSize:"1.15rem", }}>Learn more    <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
     
 
                 </div>

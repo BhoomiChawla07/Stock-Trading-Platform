@@ -21,47 +21,47 @@ function Footer() {
             </div>
             <div className='col'>
                 <p>Account</p>
-               <a className= "text-muted d-block mb-2" href='' style={{textDecoration:"none"}} >Minor demat account<br/></a>
-               <a className= "text-muted d-block mb-2" href='' style={{textDecoration:"none"}} >Open demat account<br/></a>
-               <a className= "text-muted d-block mb-2" href='' style={{textDecoration:"none"}} >NRI demat account<br/></a>
-               <a className= "text-muted d-block mb-2" href='' style={{textDecoration:"none"}} >HUF demat account<br/></a>
-               <a className= "text-muted d-block mb-2" href='' style={{textDecoration:"none"}} >Commodity<br/></a>
-               <a className= "text-muted d-block mb-2" href='' style={{textDecoration:"none"}} >Dematerialisation<br/></a>
-               <a className= "text-muted d-block mb-2" href='' style={{textDecoration:"none"}} >Fund transfer<br/></a>
-               <a className= "text-muted d-block mb-2" href='' style={{textDecoration:"none"}} >MTF<br/></a>
+               <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >Minor demat account<br/></a>
+               <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >Open demat account<br/></a>
+               <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >NRI demat account<br/></a>
+               <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >HUF demat account<br/></a>
+               <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >Commodity<br/></a>
+               <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >Dematerialisation<br/></a>
+               <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >Fund transfer<br/></a>
+               <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >MTF<br/></a>
             </div>
             <div className='col'>
                 <p>Support</p>
-                <a className= "text-muted d-block mb-2" href='' style={{textDecoration:"none"}} >Contact us<br/></a>
-                <a className= "text-muted d-block mb-2" href='' style={{textDecoration:"none"}} >Support portal<br/></a>
-                <a className= "text-muted d-block mb-2" href='' style={{textDecoration:"none"}} >How to file a complaint?<br/></a>
-                <a className= "text-muted d-block mb-2" href='' style={{textDecoration:"none"}} >Status of your complaints<br/></a>
-                <a className= "text-muted d-block mb-2" href='' style={{textDecoration:"none"}} >Bulletin<br/></a>
-                <a className= "text-muted d-block mb-2" href='' style={{textDecoration:"none"}} >Circular<br/></a>
-                <a className= "text-muted d-block mb-2" href='' style={{textDecoration:"none"}} >Z-Connect blog<br/></a>
-                <a className= "text-muted d-block mb-2" href='' style={{textDecoration:"none"}} >Downloads<br/></a>
+                <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >Contact us<br/></a>
+                <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >Support portal<br/></a>
+                <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >How to file a complaint?<br/></a>
+                <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >Status of your complaints<br/></a>
+                <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >Bulletin<br/></a>
+                <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >Circular<br/></a>
+                <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >Z-Connect blog<br/></a>
+                <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >Downloads<br/></a>
             </div>
             <div className='col'>
                 <p>Company</p>
-                <a className= "text-muted d-block mb-2" style={{textDecoration:"none"}} >About<br/></a>
-                <a className= "text-muted d-block mb-2" style={{textDecoration:"none"}} >Philosophy<br/></a>
-                <a className= "text-muted d-block mb-2" style={{textDecoration:"none"}} >Press & media<br/></a>
-                <a className= "text-muted d-block mb-2" style={{textDecoration:"none"}} >Careers<br/></a>
-                <a className= "text-muted d-block mb-2" style={{textDecoration:"none"}} >Zerodha Cares (CSR)<br/></a>
-                <a className= "text-muted d-block mb-2" style={{textDecoration:"none"}} >Zerodha.tech<br/></a>
-                <a className= "text-muted d-block mb-2" style={{textDecoration:"none"}} >Open source<br/></a>
-                <a className= "text-muted d-block mb-2" style={{textDecoration:"none"}} >Referral program<br/></a>
+                <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >About<br/></a>
+                <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >Philosophy<br/></a>
+                <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >Press & media<br/></a>
+                <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >Careers<br/></a>
+                <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >Zerodha Cares (CSR)<br/></a>
+                <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >Zerodha.tech<br/></a>
+                <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >Open source<br/></a>
+                <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >Referral program<br/></a>
             </div>
             <div className='col'>
                 <p>Quick links</p>
-               <a className= "text-muted d-block mb-2"  style={{textDecoration:"none"}} >Upcoming IPOs<br/></a>
-               <a className= "text-muted d-block mb-2"  style={{textDecoration:"none"}} >Brokerage charges</a>
-               <a className= "text-muted d-block mb-2"  style={{textDecoration:"none"}} >Market holidays</a>
-               <a className= "text-muted d-block mb-2"  style={{textDecoration:"none"}} >Economic calendar</a>
-               <a className= "text-muted d-block mb-2"  style={{textDecoration:"none"}} >Calculators</a>
-               <a className= "text-muted d-block mb-2"  style={{textDecoration:"none"}} >Markets</a>
-               <a className= "text-muted d-block mb-2"  style={{textDecoration:"none"}} >Sectors</a>
-               <a className= "text-muted d-block mb-2"  style={{textDecoration:"none"}} >Gift Nifty</a>
+               <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >Upcoming IPOs<br/></a>
+               <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >Brokerage charges</a>
+               <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >Market holidays</a>
+               <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >Economic calendar</a>
+               <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >Calculators</a>
+               <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >Markets</a>
+               <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >Sectors</a>
+               <a className= "text-muted d-block mb-2" href='#!' style={{textDecoration:"none"}} >Gift Nifty</a>
             </div>
             
         </div>
@@ -87,31 +87,31 @@ function Footer() {
         <div className='text-center mt-5 mb-5  ' >
             <ul className='text-center ' style={{display:"flex",justifyContent:"center" ,gap:"2rem", fontSize:"14px", listStyleType:"none"}}>
                 <li className=''>
-                    <a className="text-muted" style={{textDecoration:"none"}} href=''>NSE </a>
+                    <a href='#!' className="text-muted" style={{textDecoration:"none"}} >NSE </a>
                 </li>
                 <li>
-                    <a className="text-muted" style={{textDecoration:"none"}} href=''>BSE </a>
+                    <a href='#!' className="text-muted" style={{textDecoration:"none"}} >BSE </a>
                 </li>
                 <li>
-                    <a className="text-muted" style={{textDecoration:"none"}} href=''>MCX </a>
+                    <a href='#!' className="text-muted" style={{textDecoration:"none"}} >MCX </a>
                 </li>
                 <li>
-                    <a className="text-muted" style={{textDecoration:"none"}} href=''>Terms & Conditions </a>
+                    <a href='#!' className="text-muted" style={{textDecoration:"none"}} >Terms & Conditions </a>
                 </li>
                 <li>
-                    <a className="text-muted" style={{textDecoration:"none"}} href=''>Policies & procedures  </a>
+                    <a href='#!' className="text-muted" style={{textDecoration:"none"}} >Policies & procedures  </a>
                 </li>
                 <li>
-                    <a className="text-muted" style={{textDecoration:"none"}} href=''>Privacy policy  </a>
+                    <a href='#!' className="text-muted" style={{textDecoration:"none"}} >Privacy policy  </a>
                 </li>
                 <li>
-                    <a className="text-muted" style={{textDecoration:"none"}} href=''>Disclosure </a>
+                    <a href='#!' className="text-muted" style={{textDecoration:"none"}} >Disclosure </a>
                 </li>
                 <li>
-                    <a className="text-muted" style={{textDecoration:"none"}} href=''>For investor's attention  </a>
+                    <a href='#!' className="text-muted" style={{textDecoration:"none"}} >For investor's attention  </a>
                 </li>
                 <li>
-                    <a className="text-muted" style={{textDecoration:"none"}} href=''>Investor charter </a>
+                    <a href='#!' className="text-muted" style={{textDecoration:"none"}} >Investor charter </a>
                 </li>
             </ul>
         </div>

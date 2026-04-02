@@ -56,7 +56,7 @@ function ProductsPage() {
               googlePlay='https://play.google.com/store/apps/details?id=com.zerodhatech.kite' appStore='https://apps.apple.com/in/app/kite-by-zerodha/id1008358500'
             />
 
-            <p className='mb-5 text-muted text-center fs-5'>Want to know more about our technology stack? Check out the<a  style={{textDecoration:"none"}}> Zerodha.tech </a>blog.</p>
+            <p className='mb-5 text-muted text-center fs-5'>Want to know more about our technology stack? Check out the<a href='#!' style={{textDecoration:"none"}}> Zerodha.tech </a>blog.</p>
             
             <Universe/>
         </>
